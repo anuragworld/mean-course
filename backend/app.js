@@ -23,7 +23,7 @@ app.post('/api/posts', (req,res, next)=>{
     const post=req.body;
     console.log(post);
     res.status(201).json({
-        message:'Post added successfully 1'
+        message:'Post added successfully'
     })
 })
     
